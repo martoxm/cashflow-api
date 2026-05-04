@@ -4,13 +4,28 @@
 
 ---
 
-## 📌 Sobre o Projeto
+## 📌 Status do Projeto
 
-O **CashFlow** é uma aplicação backend para controle e gestão de despesas pessoais. O projeto foi desenvolvido com foco em aprendizado prático de arquitetura de software e boas práticas de desenvolvimento com .NET 8.
+> **Projeto em desenvolvimento e aprendizado contínuo.**
+
+Este repositório faz parte da minha jornada de estudos em **.NET 8** e arquitetura de software. O projeto ainda não está 100% finalizado, pois está sendo construído conforme avanço nas aulas e nas implementações práticas.
+
+A proposta deste repositório é registrar minha evolução como desenvolvedor, aplicando aos poucos conceitos importantes como **DDD**, **SOLID**, **injeção de dependência**, **persistência de dados**, **testes** e geração de relatórios.
 
 ---
 
-## 🎯 O que foi aprendido e aplicado
+## 🎯 Objetivo do Projeto
+
+O **CashFlow** é uma aplicação backend para controle de despesas pessoais. Mais do que entregar uma aplicação pronta, este projeto tem como objetivo servir como base prática para consolidar conhecimentos em:
+
+- Arquitetura em camadas
+- Separação de responsabilidades
+- Boas práticas com APIs REST
+- Escrita de código limpo e manutenível
+- Modelagem de domínio
+- Integração com banco de dados
+
+## 🚧 O que estou aprendendo neste projeto
 
 ### 📦 Módulo 1 — Primeiros passos criando a nossa API
 
