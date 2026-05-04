@@ -32,10 +32,10 @@ O **CashFlow** é uma aplicação backend para controle de despesas pessoais. Ma
 
 - [x] Fundamentos do **DDD (Domain Driven Design)**
 - [x] Escrita de código limpo, seguro e orientado ao domínio
-- [x]Aplicação de validações com **estruturas condicionais**
-- [x]Tratamento de exceções com **try/catch**
-- [x]Gerenciamento de pacotes com **NuGet**
-- [x]Validações elegantes com **Fluent Validation**
+- [x] Aplicação de validações com **estruturas condicionais**
+- [x] Tratamento de exceções com **try/catch**
+- [x] Gerenciamento de pacotes com **NuGet**
+- [x] Validações elegantes com **Fluent Validation**
 -  Criação de **filtros personalizados de exceções**
 -  Escrita de **testes de unidade** para garantir qualidade e confiabilidade
 
