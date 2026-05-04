@@ -17,37 +17,37 @@ O **CashFlow** é uma aplicação backend para controle e gestão de despesas pe
 
 - [x] Fundamentos do **DDD (Domain Driven Design)**
 - [x] Escrita de código limpo, seguro e orientado ao domínio
-- [] Aplicação de validações com **estruturas condicionais**
-- [] Tratamento de exceções com **try/catch**
-- [] Gerenciamento de pacotes com **NuGet**
-- [] Validações elegantes com **Fluent Validation**
-- [] Criação de **filtros personalizados de exceções**
-- [] Escrita de **testes de unidade** para garantir qualidade e confiabilidade
+-  Aplicação de validações com **estruturas condicionais**
+-  Tratamento de exceções com **try/catch**
+-  Gerenciamento de pacotes com **NuGet**
+-  Validações elegantes com **Fluent Validation**
+-  Criação de **filtros personalizados de exceções**
+-  Escrita de **testes de unidade** para garantir qualidade e confiabilidade
 
 ---
 
 ### 🗄️ Módulo 2 — Banco de dados e Injeção de dependência
 
 
-- [] Integração da aplicação .NET com **MySQL**
-- [] Mapeamento de entidades com **Entity Framework Core**
-- [] Configuração do **DbContext**
-- [] Injeção de dependências com **Dependency Injection**
-- [] Simplificação de transformações de dados com **AutoMapper**
-- [] Consultas performáticas com **AsNoTracking**
-- [] Programação assíncrona com **métodos async/await**
-- [] Princípios **SOLID** aplicados na prática
+-  Integração da aplicação .NET com **MySQL**
+-  Mapeamento de entidades com **Entity Framework Core**
+-  Configuração do **DbContext**
+-  Injeção de dependências com **Dependency Injection**
+-  Simplificação de transformações de dados com **AutoMapper**
+-  Consultas performáticas com **AsNoTracking**
+-  Programação assíncrona com **métodos async/await**
+-  Princípios **SOLID** aplicados na prática
 
 ---
 
 ### 📊 Módulo 3 — Gerando relatórios em Excel e PDF
 
 
-- [] Geração de relatórios profissionais em **PDF**
-- [] Exportação de dados para **Excel**
-- [] Versionamento do projeto com **GitHub**
-- [] Colaboração com outras pessoas desenvolvedoras
-- [] Manutenção do histórico do código de forma segura e organizada
+-  Geração de relatórios profissionais em **PDF**
+-  Exportação de dados para **Excel**
+-  Versionamento do projeto com **GitHub**
+-  Colaboração com outras pessoas desenvolvedoras
+-  Manutenção do histórico do código de forma segura e organizada
 
 ---
 
