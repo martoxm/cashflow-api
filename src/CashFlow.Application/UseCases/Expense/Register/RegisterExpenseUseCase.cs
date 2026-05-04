@@ -7,9 +7,12 @@ public class RegisterExpenseUseCase
 {
     public ResponseRegisterExpenseJson Execute(RequestRegisterExpenseJson request)
     {
-        //TO DO VALIDATE REQUEST
-
+        Validate(request);
 
         return new ResponseRegisterExpenseJson();
+    }
+
+
+        var result = validator.Validate(request);
     }
 }
