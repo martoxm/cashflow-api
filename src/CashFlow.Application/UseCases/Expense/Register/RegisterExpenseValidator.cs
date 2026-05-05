@@ -1,4 +1,5 @@
 ﻿using CashFlow.Communication.Requests;
+using CashFlow.Exception;
 using FluentValidation;
 
 namespace CashFlow.Application.UseCases.Expense.Register;
@@ -7,9 +8,9 @@ public class RegisterExpenseValidator : AbstractValidator<RequestRegisterExpense
 {
     public RegisterExpenseValidator()
     {
-        RuleFor(expense => expense.Title).NotEmpty().WithMessage("O titulo é obrigatório.");
-        RuleFor(expense => expense.Amount).GreaterThan(0).WithMessage("O valor deve ser maior que zero.");
-        RuleFor(expense => expense.Date).LessThanOrEqualTo(DateTime.UtcNow).WithMessage("A despesa não pode ser futura.");
-        RuleFor(expense => expense.PaymentType).IsInEnum().WithMessage("O tipo de pagamento é inválido.");
+        RuleFor(expense => expense.Title).NotEmpty().WithMessage(ResourceErroMessages.TITLE_REQUIRED);
+        RuleFor(expense => expense.Amount).GreaterThan(0).WithMessage(ResourceErroMessages.AMOUNT_MUST_BE_GREATER_THAN_ZERO);
+        RuleFor(expense => expense.Date).LessThanOrEqualTo(DateTime.UtcNow).WithMessage(ResourceErroMessages.EXPENSES_CANNOT_FOR_THE_FUTERE);
+        RuleFor(expense => expense.PaymentType).IsInEnum().WithMessage(ResourceErroMessages.PAYMENT_TYPE_INVALAD);
     }
 }
