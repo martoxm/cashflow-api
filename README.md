@@ -108,7 +108,7 @@ src/
 
 ```bash
 # Clone o repositório
-git clone https://github.com/seu-usuario/cashflow-api.git
+git clone https://github.com/martoxm/cashflow-api.git
 
 # Acesse a pasta do projeto
 cd cashflow-api
