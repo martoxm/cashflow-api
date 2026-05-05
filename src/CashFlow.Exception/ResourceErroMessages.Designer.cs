@@ -79,7 +79,7 @@ namespace CashFlow.Exception {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to O tipo de pagamento é inválido..
+        ///   Looks up a localized string similar to O tipo de pagamento não é válido.
         /// </summary>
         public static string PAYMENT_TYPE_INVALAD {
             get {
@@ -88,7 +88,7 @@ namespace CashFlow.Exception {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to O titulo é obrigatório..
+        ///   Looks up a localized string similar to O título é obrigatório.
         /// </summary>
         public static string TITLE_REQUIRED {
             get {
@@ -97,7 +97,7 @@ namespace CashFlow.Exception {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Unknown error.
+        ///   Looks up a localized string similar to Erro desconhecido.
         /// </summary>
         public static string UNKNOWN_ERROR {
             get {
