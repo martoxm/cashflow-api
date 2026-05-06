@@ -659,7 +659,7 @@ public class RegisterExpenserValidatorTests
 ---
 
 ## 🗺️ Resumo da Jornada — Módulo 1
-
+```
 Projeto criado + .gitignore
 ↓
 Arquitetura DDD (6 camadas) + Injeção de Dependência
@@ -682,7 +682,7 @@ Shouldly para asserts legíveis
 ↓
 Cobertura completa dos casos de erro
 
-text
+```
 
 ---
 
