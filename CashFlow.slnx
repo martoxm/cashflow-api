@@ -8,6 +8,7 @@
     <Project Path="src/CashFlow.Infrastructure/CashFlow.Infrastructure.csproj" />
   </Folder>
   <Folder Name="/test/">
+    <Project Path="test/CommonTestUtilities/CommonTestUtilities.csproj" Id="b24683b6-5663-4661-8a00-aa728a5c6d21" />
     <Project Path="test/Validators.Tests/Validators.Tests.csproj" Id="154137e1-a76b-49e5-834f-3bf37610d286" />
   </Folder>
 </Solution>
