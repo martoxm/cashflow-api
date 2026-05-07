@@ -80,6 +80,7 @@ DDD é uma abordagem de arquitetura que organiza o software em torno do **domín
 
 ### Fluxo de uma requisição
 
+```
 HTTP Request
 ↓
 Controller (Api)
@@ -93,8 +94,7 @@ Banco de Dados (MySQL via EF Core)
 Response DTO (Communication)
 ↓
 HTTP Response
-
-text
+```
 
 ### Conceito: DTO (Data Transfer Object)
 
@@ -230,10 +230,11 @@ Usar `throw new Exception("mensagem")` diretamente é problemático porque:
 
 ### Hierarquia de Exceções
 
+```
+
 CashFlowException (base)
 └── ErrorOnValidationException
-
-text
+```
 
 ```csharp
 // Exception/CashFlowException.cs
@@ -374,6 +375,8 @@ Hardcodar strings de erro espalhadas pelo código é ruim para:
 
 No projeto `CashFlow.Exception`:
 
+```
+
 1. Clicar com botão direito → _Add_ → _New Item_ → _Resource File_
 2. Nomear como `ResourceErrorMessages.resx`
 3. Adicionar chave/valor para cada mensagem
@@ -381,8 +384,7 @@ No projeto `CashFlow.Exception`:
    Chave: AMOUNT_MUST_BE_GREATER_THAN_ZERO | Valor: O valor deve ser maior que zero.
    Chave: DATE_CANNOT_BE_FOR_THE_FUTURE | Valor: A data não pode ser futura.
    Chave: PAYMENT_TYPE_INVALID | Valor: Tipo de pagamento inválido.
-
-text
+```
 
 O Visual Studio gera automaticamente uma classe `ResourceErrorMessages.Designer.cs`.
 
@@ -659,6 +661,7 @@ public class RegisterExpenserValidatorTests
 ---
 
 ## 🗺️ Resumo da Jornada — Módulo 1
+
 ```
 Projeto criado + .gitignore
 ↓
