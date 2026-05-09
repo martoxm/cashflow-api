@@ -1,7 +1,7 @@
 # 📚 Documentação de Estudos — CashFlow API (Módulo 1)
 
 > **Repositório:** [cashflow-api](https://github.com/martoxm/cashflow-api)  
-> **Tecnologias:** .NET 8 · C# · ASP.NET Core · Entity Framework Core · MySQL · FluentValidation · xUnit · DDD
+> **Tecnologias:** .NET 10 · C# · ASP.NET Core · Entity Framework Core · MySQL · FluentValidation · xUnit · DDD
 
 Este documento registra minha jornada de aprendizado no Módulo 1 do curso, seguindo a ordem cronológica dos commits. Cada seção representa uma etapa do que aprendi e implementei.
 
