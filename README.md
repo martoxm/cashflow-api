@@ -1,6 +1,6 @@
 # 💸 CashFlow API
 
-> API de controle de despesas pessoais desenvolvida em **.NET 8**, aplicando arquitetura **DDD (Domain Driven Design)**, princípios **SOLID**, **Entity Framework Core** com MySQL e boas práticas modernas de desenvolvimento backend.
+> API de controle de despesas pessoais desenvolvida em **.NET 10**, aplicando arquitetura **DDD (Domain Driven Design)**, princípios **SOLID**, **Entity Framework Core** com MySQL e boas práticas modernas de desenvolvimento backend.
 
 ---
 
@@ -8,7 +8,7 @@
 
 > **Projeto em desenvolvimento e aprendizado contínuo.**
 
-Este repositório faz parte da minha jornada de estudos em **.NET 8** e arquitetura de software. O projeto ainda não está 100% finalizado, pois está sendo construído conforme avanço nas aulas e nas implementações práticas.
+Este repositório faz parte da minha jornada de estudos em **.NET 10** e arquitetura de software. O projeto ainda não está 100% finalizado, pois está sendo construído conforme avanço nas aulas e nas implementações práticas.
 
 A proposta deste repositório é registrar minha evolução como desenvolvedor, aplicando aos poucos conceitos importantes como **DDD**, **SOLID**, **injeção de dependência**, **persistência de dados**, **testes** e geração de relatórios.
 
@@ -29,7 +29,6 @@ O **CashFlow** é uma aplicação backend para controle de despesas pessoais. Ma
 
 ### 📦 Módulo 1 — Primeiros passos criando a nossa API
 
-
 - [x] Fundamentos do **DDD (Domain Driven Design)**
 - [x] Escrita de código limpo, seguro e orientado ao domínio
 - [x] Aplicação de validações com **estruturas condicionais**
@@ -43,42 +42,40 @@ O **CashFlow** é uma aplicação backend para controle de despesas pessoais. Ma
 
 ### 🗄️ Módulo 2 — Banco de dados e Injeção de dependência
 
-
--  Integração da aplicação .NET com **MySQL**
--  Mapeamento de entidades com **Entity Framework Core**
--  Configuração do **DbContext**
--  Injeção de dependências com **Dependency Injection**
--  Simplificação de transformações de dados com **AutoMapper**
--  Consultas performáticas com **AsNoTracking**
--  Programação assíncrona com **métodos async/await**
--  Princípios **SOLID** aplicados na prática
+- Integração da aplicação .NET com **MySQL**
+- Mapeamento de entidades com **Entity Framework Core**
+- Configuração do **DbContext**
+- Injeção de dependências com **Dependency Injection**
+- Simplificação de transformações de dados com **AutoMapper**
+- Consultas performáticas com **AsNoTracking**
+- Programação assíncrona com **métodos async/await**
+- Princípios **SOLID** aplicados na prática
 
 ---
 
 ### 📊 Módulo 3 — Gerando relatórios em Excel e PDF
 
-
--  Geração de relatórios profissionais em **PDF**
--  Exportação de dados para **Excel**
--  Versionamento do projeto com **GitHub**
--  Colaboração com outras pessoas desenvolvedoras
--  Manutenção do histórico do código de forma segura e organizada
+- Geração de relatórios profissionais em **PDF**
+- Exportação de dados para **Excel**
+- Versionamento do projeto com **GitHub**
+- Colaboração com outras pessoas desenvolvedoras
+- Manutenção do histórico do código de forma segura e organizada
 
 ---
 
 ## 🛠️ Tecnologias Utilizadas
 
-| Tecnologia | Finalidade |
-|---|---|
-| .NET 8 | Framework principal |
-| ASP.NET Core | Criação da API REST |
+| Tecnologia            | Finalidade                        |
+| --------------------- | --------------------------------- |
+| .NET 10               | Framework principal               |
+| ASP.NET Core          | Criação da API REST               |
 | Entity Framework Core | ORM para acesso ao banco de dados |
-| MySQL | Banco de dados relacional |
-| Fluent Validation | Validação de dados |
-| AutoMapper | Mapeamento entre objetos |
-| xUnit | Testes de unidade |
-| Swagger / Scalar | Documentação da API |
-| GitHub | Controle de versão |
+| MySQL                 | Banco de dados relacional         |
+| Fluent Validation     | Validação de dados                |
+| AutoMapper            | Mapeamento entre objetos          |
+| xUnit                 | Testes de unidade                 |
+| Swagger / Scalar      | Documentação da API               |
+| GitHub                | Controle de versão                |
 
 ---
 
@@ -100,7 +97,7 @@ src/
 
 ### Pré-requisitos
 
-- [.NET 8 SDK](https://dotnet.microsoft.com/download)
+- [.NET 10 SDK](https://dotnet.microsoft.com/download)
 - [MySQL](https://www.mysql.com/)
 - [Visual Studio](https://visualstudio.microsoft.com/) ou [VS Code](https://code.visualstudio.com/)
 
