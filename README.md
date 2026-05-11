@@ -42,9 +42,9 @@ O **CashFlow** é uma aplicação backend para controle de despesas pessoais. Ma
 
 ### 🗄️ Módulo 2 — Banco de dados e Injeção de dependência
 
-- Integração da aplicação .NET com **MySQL**
-- Mapeamento de entidades com **Entity Framework Core**
-- Configuração do **DbContext**
+- [x] Integração da aplicação .NET com **MySQL**
+- [x] Mapeamento de entidades com **Entity Framework Core**
+- [x] Configuração do **DbContext**
 - Injeção de dependências com **Dependency Injection**
 - Simplificação de transformações de dados com **AutoMapper**
 - Consultas performáticas com **AsNoTracking**
