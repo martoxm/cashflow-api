@@ -11,15 +11,13 @@ public class RegisterExpenseUseCase : IRegisterExpenseUseCase
     private readonly IExpensesRepository _repository;
     private readonly IUnitOfWork _unitOfWork;
 
-
     public RegisterExpenseUseCase(IExpensesRepository repository, IUnitOfWork unitOfWork)
     {
         _repository = repository;
         _unitOfWork = unitOfWork;
     }
 
-
-    public async Task <ResponseRegisterExpenseJson> Execute(RequestRegisterExpenseJson request)
+    public async Task<ResponseRegisterExpenseJson> Execute(RequestRegisterExpenseJson request)
     {
         Validate(request);
 
