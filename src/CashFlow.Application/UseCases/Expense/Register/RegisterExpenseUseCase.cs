@@ -37,6 +37,7 @@ public class RegisterExpenseUseCase : IRegisterExpenseUseCase
         return _mapper.Map<ResponseRegisterExpenseJson>(entity);
     }
 
+   
     private void Validate(RequestRegisterExpenseJson request)
     {
         var validator = new RegisterExpenseValidator();
