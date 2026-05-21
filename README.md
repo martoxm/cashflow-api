@@ -47,8 +47,8 @@ O **CashFlow** é uma aplicação backend para controle de despesas pessoais. Ma
 - [x] Configuração do **DbContext**
 - [x] Injeção de dependências com **Dependency Injection**
 - [x] Simplificação de transformações de dados com **AutoMapper**
-- Consultas performáticas com **AsNoTracking**
-- Programação assíncrona com **métodos async/await**
+- [x] Consultas performáticas com **AsNoTracking**
+- [x] Programação assíncrona com **métodos async/await**
 - Princípios **SOLID** aplicados na prática
 
 ---
